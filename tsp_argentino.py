@@ -155,8 +155,21 @@ def aco(cities):
     ant.make_tour(current_pheromones, initial_city=0)
     current_path = ant.last_tour
     current_cost = ant.last_cost
-    current_path, current_cost = two_opt(current_path, current_cost)
-    return current_path, current_cost
+
+    best_path = current_path
+    best_cost = current_cost
+
+    i = 0
+    while i < 10:
+        i += 1
+        ant.make_tour(current_pheromones, initial_city=0)
+        current_path = ant.last_tour
+        current_cost = ant.last_cost
+        current_path, current_cost = two_opt(current_path, current_cost)
+        if best_cost > current_cost:
+            best_cost = current_cost
+            best_path = current_path
+    return best_path, best_cost
 
 if __name__ == '__main__':
     CITIES = []

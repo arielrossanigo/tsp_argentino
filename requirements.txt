@@ -1,0 +1,3 @@
+bokeh==0.11.1
+jupyter==1.0.0
+notebook==4.1.0
