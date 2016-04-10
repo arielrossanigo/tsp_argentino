@@ -1,0 +1,25 @@
+ 000.0,  000.0, Sunchales
++355.8, -405.9,Buenos Aires
+-467.0, +274.3,Catamarca
++305.8, +383.6,Corrientes
+-291.0, -53.7,Córdoba
++378.1, +528.2,Formosa
+-415.1, +750.6,Jujuy
++402.2, -444.8,La Plata
+-587.5, +170.5,La Rioja
+-808.0, -216.8,Mendoza
+-719.1, -891.4,Neuquén
++116.8, -89.0,Paraná
++632.0, +396.6,Posadas
++287.3, +387.3,Resistencia
+-852.5, -2301.7,Río gallegos
+-426.2, +683.8,Salta
+-774.7, -66.7,San Juan
+-531.9, -259.5,San Luis
++96.4, -77.8,Santa Fe
+-302.1, -632.0,Santa Rosa
+-300.2, +350.3,Santiago del Estero
+-415.1, -1369.6,Trelew
+-405.9, +457.8,Tucumán
+-748.7, -2653.9,Ushuaia
+-159.4, -1097.1,Viedma
